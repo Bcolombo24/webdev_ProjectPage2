@@ -2,7 +2,7 @@ body{
     font-family: Arial, sans-serif;
     margin:0;
     background:#f4f6f8;
-    color:333;
+    color:#333;
 }
 
 /* nav bar */
@@ -91,7 +91,6 @@ nav{
 }
 
 
-/* pages */
 
 main{
     max-width:1000px;
@@ -104,4 +103,71 @@ main{
 
 h1,h2{
     color:#222;
+}
+
+/* home page */
+
+
+/* about me page*/
+
+.geass-theme{
+    background:radial-gradient(circle at top,#1a0000,#000);
+    color:#e6e6e6;
+}
+
+.geass-hero{
+    text-align:center;
+    padding:60px 20px 40px 20px;
+}
+
+.geass-hero img{
+    width:120px;
+    margin-bottom:15px;
+    animation:geassGlow 3s infinite alternate;
+}
+
+.geass-hero h1{
+    font-size:42px;
+    color:#ff1a1a;
+    text-shadow:0 0 10px red;
+}
+
+.geass-hero p{
+    font-style:italic;
+    color:#aaa;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    margin-top:30px;
+}
+
+.about-card{
+    background:#111;
+    padding:25px;
+    border-radius:12px;
+    border:1px solid #7a0000;
+    box-shadow:0 0 20px rgba(255,0,0,0.2);
+}
+
+.about-card h2{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.about-card img{
+    width:100%;
+    border-radius:8px;
+    margin-top:15px;
+}
+
+@keyframes geassGlow{
+    from{
+        filter:drop-shadow(0 0 5px red);
+    }
+    to{
+        filter:drop-shadow(0 0 20px red);
+    }
 }
