@@ -4,6 +4,10 @@ body{
     background:red;
 }
 
+* {
+  outline: 3px solid red;
+}
+
 /* nav bar */
 .navbar{
     list-style:none;
