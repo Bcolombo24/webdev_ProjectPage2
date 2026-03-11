@@ -164,6 +164,15 @@ h1,h2{
     border-radius:12px;
     border:1px solid #7a0000;
     box-shadow:0 0 20px rgba(255,0,0,0.2);
+    color:#e6e6e6;
+}
+
+.about-card p{
+    color:#e6e6e6;
+}
+
+.about-card li{
+    color:#e6e6e6;
 }
 
 .about-card h2{
