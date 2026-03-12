@@ -278,3 +278,83 @@ video {
     box-shadow:0 10px 25px rgba(0,0,0,0.2);
     margin-top:15px;
 }
+
+/* resume page */
+
+.resume-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.resume-header {
+    text-align:center;
+    margin-bottom: 40px;
+}
+
+.resume-header h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.resume-header p{
+    font-size: 16px;
+    color: #555;
+}
+
+section h2{
+    color: #0077be;
+    border-bottom: 2px solid #0077be;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.job h3, .education h3, .project h3{
+    font-size:18px;
+    margin:10px 0 5px;
+}
+
+.job-date {
+    font-style:italic;
+    color:#777;
+    margin-bottom:10px;
+}
+
+section ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.skills-list li{
+    background: #e6f0fb;
+    color: #0077be;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.project, .education, .job{
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px){
+    .skills-list{
+        flex-direction:column;
+    }
+
+    .navbar{
+        flex-direction:column;
+        gap: 10px;
+    }
+}
