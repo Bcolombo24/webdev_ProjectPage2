@@ -212,7 +212,7 @@ h1,h2{
 .spongebob-theme main{
     background:white;
     border:4px solid #ffd90f;
-    border:radius 12px;
+    border-radius: 12px;
     padding:20px;
     margin-top:25px;
     box-shadow:0 0 30px rgba(0,0,0,0.25);
@@ -220,7 +220,20 @@ h1,h2{
 
 
 .bubble {
+    width:30px;
+    height:30px;
     background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+    border-radius:50%;
+    position:absolute;
+    bottom:-50px;
+    left:20%;
+    animation: float 6s linear infinite;
+    opacity: 0.7s;
+}
+
+@keyframes float{
+    0% { transform: translateY(0) scale(1); opacity:0.7;}
+    100% { transform: translateY(-600px) scale(1.2); opacity:0;}
 }
 /* hero section */
 
