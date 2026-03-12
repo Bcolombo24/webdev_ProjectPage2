@@ -197,3 +197,31 @@ h1,h2{
         filter:drop-shadow(0 0 20px red);
     }
 }
+
+/* spongebob page */
+
+.spongebob-theme{
+    background:#00b5e2;
+    color:#333;
+}
+
+/* main card */
+
+.spongebob-theme main{
+    background:white;
+    border:4px solid #ffd90f;
+    box-shadow:0 0 30px rgba(0,0,0,0.25);
+}
+
+/* hero section */
+
+.sponge-hero h1{
+    font-size:48px;
+    color:#ffd90f;
+    text-shadow:3px 3px black;
+}
+
+.sponge-hero p{
+    font-size:18px;
+    color:#444;
+}
