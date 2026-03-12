@@ -34,6 +34,7 @@ nav{
     color:#ffd90f;
 }
 
+/* hero section */
 
 .hero{
     text-align:center;
@@ -49,6 +50,8 @@ nav{
     font-size:18px;
     color:#666;
 }
+
+/* card container */
 
 .card-container{
     display:flex;
