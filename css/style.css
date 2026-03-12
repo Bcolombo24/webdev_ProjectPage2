@@ -219,6 +219,9 @@ h1,h2{
 }
 
 
+.bubble {
+    background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
 /* hero section */
 
 .sponge-hero{
@@ -227,7 +230,7 @@ h1,h2{
 }
 
 .sponge-hero h1{
-    font-size:'Luckiest Guy', cursive;
+    font-family:'Luckiest Guy', cursive;
     font-size:50px;
     color:#ffd90f;
     text-shadow:3px 3px black;
