@@ -94,8 +94,6 @@ nav{
     color:#666;
 }
 
-
-
 main{
     max-width:1000px;
     margin:40px auto;
@@ -115,7 +113,6 @@ h1,h2{
 /* about me page*/
 
 .geass-theme{
-    background:radial-gradient(circle at top,#1a0000,#000);
     background:radial-gradient(circle at center,#300000,#000);
     color:#0a0a0a;
 }
@@ -170,14 +167,6 @@ h1,h2{
     color:#e6e6e6;
 }
 
-.geass-theme .about-card p{
-    color:#e6e6e6;
-}
-
-.geass-theme .about-card li{
-    color:#e6e6e6;
-}
-
 .about-card h2{
     color:#d4af37;
     margin-bottom:15px;
@@ -201,11 +190,9 @@ h1,h2{
 /* spongebob page */
 
 .spongebob-theme{
-    background:#00b5e2;
-    color:#333;
+    background:linear-gradient(#00b5e2,#0077be);
 }
 
-/* main card */
 
 .spongebob-theme main{
     background:white;
@@ -213,7 +200,13 @@ h1,h2{
     box-shadow:0 0 30px rgba(0,0,0,0.25);
 }
 
+
 /* hero section */
+
+.sponge-hero{
+    text-align:center;
+    margin-bottom:30px;
+}
 
 .sponge-hero h1{
     font-size:48px;
@@ -236,6 +229,14 @@ h1,h2{
 /* image styling */
 
 .sponge-image img{
+    width:100%;
+    max-width:500px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    margin-top:15px;
+}
+
+video {
     width:100%;
     max-width:500px;
     border-radius:10px;
