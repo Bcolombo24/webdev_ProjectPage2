@@ -358,3 +358,11 @@ section ul {
         gap: 10px;
     }
 }
+
+.geass-theme h1,
+.geass-theme h2,
+.geass-theme p,
+.geass-theme .about-card {
+    color: #e6e6e6;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
